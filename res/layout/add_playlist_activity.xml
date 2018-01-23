@@ -1,0 +1,50 @@
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:gravity="center"
+        >
+
+
+    <TableRow android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+             android:id="@+id/newPlaylistTableRow"
+            >
+        <TextView android:text="@string/new_playlist_name"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="20dp"
+                />
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/newPlaylistNameEditText"
+                android:textSize="20dp"/>
+
+    </TableRow>
+
+        <Button
+                android:layout_marginTop="20dp"
+                android:id="@+id/addPlaylistButton"
+                android:layout_below="@id/newPlaylistTableRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/add_playlist"
+                android:onClick="onAddNewPlaylistButtonClick"/>
+    <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/cancelPlaylistButton"
+            android:layout_below="@id/addPlaylistButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:onClick="onCancelNewPlaylistButtonClick"/>
+
+
+
+
+</RelativeLayout>

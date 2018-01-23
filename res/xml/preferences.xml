@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+            android:summary="@string/background_summary"
+            android:title="Choose backround">
+
+        <yuku.ambilwarna.widget.AmbilWarnaPreference
+                android:key="colorPicker"
+                android:defaultValue="0xff99cc00"
+                android:title="@string/color"
+                app:supportsAlpha="true"
+                />
+
+        <Preference android:key="imagePref"
+                    android:summary="@string/background_image_summary"
+                    android:title="@string/background_image_title"/>
+    </PreferenceCategory>
+</PreferenceScreen>

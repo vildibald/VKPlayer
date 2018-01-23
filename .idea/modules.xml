@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../AmbilWarna/AmbilWarna.iml" filepath="$PROJECT_DIR$/../AmbilWarna/AmbilWarna.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AndroidCameraUtil-master/AndroidCameraUtil-master.iml" filepath="$PROJECT_DIR$/../AndroidCameraUtil-master/AndroidCameraUtil-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VkSystemko.iml" filepath="$PROJECT_DIR$/VkSystemko.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../aFileChooser-master/aFileChooser/aFileChooser1.iml" filepath="$PROJECT_DIR$/../aFileChooser-master/aFileChooser/aFileChooser1.iml" />
+      <module fileurl="file://D:/adt-bundle-windows-x86_64-20131030/sdk/extras/android/support/v7/appcompat/appcompat.iml" filepath="D:/adt-bundle-windows-x86_64-20131030/sdk/extras/android/support/v7/appcompat/appcompat.iml" />
+    </modules>
+  </component>
+</project>
+

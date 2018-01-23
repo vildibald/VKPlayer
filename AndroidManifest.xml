@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="sk.ics.upjs.VkSystemko"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="9"
+              android:targetSdkVersion="19"
+            />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.camera"
+                  android:required="true" />
+
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light"
+             >
+        <activity
+                android:name="sk.ics.upjs.VkSystemko.MainActivity"
+                android:label="@string/app_name"
+                android:configChanges="orientation|screenSize"
+                >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--<activity android:name=".entities.NewPlaylistActivity"/>-->
+        <activity android:name=".AddPlaylistActivity"
+                  android:theme="@style/Theme.AppCompat.Light"/>
+        <activity android:name=".SettingsActivity"
+                  android:theme="@style/Theme.AppCompat.Light"/>
+        <activity android:name=".NotificationView"
+                  android:label="Details of notification"
+                  android:parentActivityName=".MainActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".MainActivity"/>
+        </activity>
+        <activity android:name=".TakePhotoActivity"/>
+
+        <provider android:authorities="sk.ics.upjs.VkSystemko.database.dao"
+                  android:name=".database.dao.PlayerDatabaseContentProvider">
+        </provider>
+    </application>
+</manifest>

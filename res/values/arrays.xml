@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Items can by translated-->
+    <string-array name="listOptions">
+        <item>Default</item>
+        <item>Pick color</item>
+        <item>Photo</item>
+    </string-array>
+
+    <!--Do not touch or I will do something bad to you-->
+    <integer-array name="listValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+</resources>

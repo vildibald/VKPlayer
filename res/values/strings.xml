@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VkSystemko</string>
+    <string name="standard">Standard</string>
+	<string name="ffc">Front-Facing</string>
+	<string name="record">Record Video</string>
+	<string name="stop">Stop</string>
+  <string name="lock_to_landscape">Lock to Landscape</string>
+  <string name="launch_camera_app">Launch Camera App</string>
+  <string name="auto_focus">Auto-focus</string>
+  <string name="single_shot_mode">Single-Shot Mode</string>
+  <string name="no_image">There is no image to display!</string>
+    <string name="player">Player</string>
+    <string name="playlists">Playlists</string>
+    <string name="all_tracks">Tracks</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Welcome in VK SYSTEMKO player!</string>
+    <string name="add_track">Add song</string>
+    <string name="add_playlist">Add playlist</string>
+    <string name="filechooser_title">Choose .mp3 file</string>
+    <string name="new_playlist_name">Name:</string>
+    <string name="track_or_playlist_delete">Delete</string>
+    <string name="playlist_edit">Edit</string>
+    <string name="cancel">Cancel</string>
+    <string name="background_summary">Backround</string>
+    <string name="settings_bg_color_confirm">Confirm</string>
+    <string name="settings_default_color_confirm">Default color</string>
+    <string name="background_image_title">Background Image</string>
+    <string name="background_image_summary">Select Image</string>
+    <string name="color">Color</string>
+    <string name="playing">Playing: </string>
+    <string name="track_remove">Remove track?</string>
+    <string name="answer_confirm">Confirm</string>
+    <string name="answer_cancel">Cancel</string>
+    <string name="toggle_turn_on">All tracks</string>
+    <string name="toggle_turn_off">Playlist</string>
+    <string name="add_to_playlist">Add to playlist</string>
+
+</resources>

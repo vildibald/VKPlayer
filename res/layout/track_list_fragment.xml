@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                tools:context=".TaskListActivity"
+                android:id="@+id/trackListLayout">
+
+    <TableRow
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/track_fragment_buttons_row"
+            >
+        <Button
+            android:id="@+id/addTrackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_track"
+            android:gravity="center"
+            />
+
+        <Button
+                android:id="@+id/addTrackToPlaylistButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_to_playlist"
+                android:gravity="center"
+                />
+
+
+        <ToggleButton
+                android:id="@+id/allOrPlaylistTracksButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textOn="@string/toggle_turn_on"
+                android:textOff="@string/toggle_turn_off"
+                android:checked="true"
+
+                />
+
+
+
+   </TableRow>
+
+    <ListView
+            android:id="@+id/trackListView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/track_fragment_buttons_row"
+            android:longClickable="true"
+            android:clickable="true"
+            />
+
+</RelativeLayout>
